@@ -18,7 +18,7 @@ col1, col2 = st.columns((3,1))
 wallet_address = col1.text_input("Enter your wallet address:")
 check_address = False
 
-with col2.expander("Not working?"):
+with col2.expander("Confused?"):
     st.markdown("Please check the [docs](https://analytics.polygon.technology/score/docs) users score and element section for more info.")
 
 
