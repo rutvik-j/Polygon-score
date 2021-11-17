@@ -36,7 +36,7 @@ if col1.button("Calculate"):
         score = requests.post("https://analytics.polygon.technology/score/user-latest?address="+wallet_address).json()
         if len(score)!=0:
             score_100 = score[0]["Score100"]
-            if score_100 > 50:
+            if score_100 >= 50:
                 st.success( f"🚀 Congratulations! Your score is {score_100}. You can particpate for the [DeFi contest](https://forms.gle/Eb9RogYa4NetDom89)")
                 st.write(score)
                 st.markdown("![Congratulations](https://media.giphy.com/media/l49JHLpRSLhecYEmI/giphy.gif)")
