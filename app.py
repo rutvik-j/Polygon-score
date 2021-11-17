@@ -45,3 +45,6 @@ if col1.button("Calculate"):
                 st.write(score)
         else:
             st.warning("Please perform some transactions on Polygon.")
+
+st.info("Note - A minimum score of 50 is required to be eligible to participate in the contest.")
+
