@@ -37,7 +37,7 @@ if col1.button("Calculate"):
         if len(score)!=0:
             score_100 = score[0]["Score100"]
             if score_100 >= 50:
-                st.success( f"🚀 Congratulations! Your score is {score_100}. You can particpate for the [DeFi contest](https://forms.gle/Eb9RogYa4NetDom89)")
+                st.success( f"🚀 Congratulations! Your score is {score_100}. You can participate for the [DeFi contest](https://forms.gle/Eb9RogYa4NetDom89)")
                 st.write(score)
                 st.markdown("![Congratulations](https://media.giphy.com/media/l49JHLpRSLhecYEmI/giphy.gif)")
             else:
