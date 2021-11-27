@@ -37,7 +37,7 @@ if col1.button("Calculate"):
         if len(score)!=0:
             score_q = score[0]["ScoreQ"]
             if score_q >= 50:
-                st.success( f"🚀 Congratulations! Your score is {score_q}. You can participate for the [DeFi contest](https://forms.gle/Eb9RogYa4NetDom89)")
+                st.success( f"🚀 WAGMI! Your score is {score_q}. ")
                 st.write(score)
                 st.markdown("![Congratulations](https://media.giphy.com/media/l49JHLpRSLhecYEmI/giphy.gif)")
             else:
@@ -46,5 +46,4 @@ if col1.button("Calculate"):
         else:
             st.warning("Please perform some transactions on Polygon.")
 
-st.info("Note - A minimum score of 50 is required to be eligible to participate in the contest.")
 
