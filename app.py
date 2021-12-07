@@ -4,14 +4,14 @@ import pandas as pd
 from ethereum.utils import check_checksum
 
 st.set_page_config(
-   page_title="Polygon Score",
+   page_title="PolyScore",
    page_icon="💯",
    menu_items={
       'About': "#### Check your Polygon Score Now",
       'Report a bug': "https://github.com/RutvikJ77",
     }
 )
-st.title("💯 Polygon Score")
+st.title("💯 PolyScore")
 
 col1, col2 = st.columns((3,1))
 
